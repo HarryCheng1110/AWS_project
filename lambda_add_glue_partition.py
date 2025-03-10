@@ -3,7 +3,7 @@ import boto3
 import re
 import copy
 import urllib.parse
-
+ 
 glue = boto3.client('glue')
 database_name = 'my_databse'
 
